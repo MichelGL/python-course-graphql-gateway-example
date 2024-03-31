@@ -9,6 +9,7 @@ from context import DATA_LOADER_COUNTRIES, DATA_LOADER_NEWS
 from models.places import PlaceModel
 from services.places import PlacesService
 
+
 class News(graphene.ObjectType):
     """
     Тип объекта новости.
@@ -22,6 +23,7 @@ class News(graphene.ObjectType):
     url_to_image = graphene.String()
     published_at = graphene.DateTime()
     content = graphene.String()
+
 
 class Country(graphene.ObjectType):
     """
@@ -108,7 +110,9 @@ class Query(graphene.ObjectType):
 
     @staticmethod
     def resolve_place(
-            parent: Optional[dict], info: ResolveInfo, place_id: int  # pylint: disable=unused-argument
+        parent: Optional[dict],
+        info: ResolveInfo,
+        place_id: int,  # pylint: disable=unused-argument
     ) -> list[PlaceModel]:
         return PlacesService().get_place(place_id)
 

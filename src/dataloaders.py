@@ -26,6 +26,7 @@ class CountryLoader(DataLoader):
         # формирование результата с сохранением порядка из alpha2codes
         return Promise.resolve([countries_map.get(code) for code in alpha2codes])
 
+
 class NewsLoader(DataLoader):
     """
     Загрузчик данных о новостях.
