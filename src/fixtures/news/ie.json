@@ -1,0 +1,45 @@
+{
+"status": "ok",
+"totalResults": 8746,
+"articles": [
+{
+"source": {
+"id": "irish-times",
+"name": "The Irish Times"
+},
+"author": "John Smith",
+"title": "Irish Government Announces New Climate Action Plan",
+"description": "The Irish government has unveiled a comprehensive climate action plan aimed at reducing carbon emissions and transitioning to renewable energy sources.",
+"url": "https://www.irishtimes.com/news/environment/irish-government-announces-new-climate-action-plan-1.4859637",
+"urlToImage": "https://example.com/image.jpg",
+"publishedAt": "2024-03-15T09:30:00Z",
+"content": "The Irish government has announced a new climate action plan outlining ambitious targets for reducing carbon emissions and combating climate change. The plan includes measures to increase investment in renewable energy, promote sustainable transportation, and enhance energy efficiency in buildings. With mounting pressure to address the urgent threat of climate change, the Irish government aims to lead by example and inspire other nations to take decisive action."
+},
+{
+"source": {
+"id": "independent-ie",
+"name": "Independent.ie"
+},
+"author": "Jane Doe",
+"title": "Irish Economy Records Strong Growth in Q1 2024",
+"description": "The Irish economy has experienced robust growth in the first quarter of 2024, driven by strong performances in key sectors such as technology and pharmaceuticals.",
+"url": "https://www.independent.ie/business/irish/economy-records-strong-growth-in-q1-2024-68180675.html",
+"urlToImage": "https://example.com/image.jpg",
+"publishedAt": "2024-04-02T11:15:00Z",
+"content": "Ireland's economy has seen impressive expansion in the first quarter of 2024, with GDP growth surpassing expectations. The country's thriving technology and pharmaceutical industries have played a pivotal role in driving economic activity, attracting investment and creating jobs. Despite global uncertainties, Ireland's resilient economy continues to outperform, providing a solid foundation for sustainable growth and prosperity."
+},
+{
+"source": {
+"id": "rte",
+"name": "RTE.ie"
+},
+"author": "Sarah Murphy",
+"title": "Irish Parliament Passes New Education Reform Bill",
+"description": "The Irish parliament has approved a landmark education reform bill aimed at modernizing the education system and ensuring equal access to quality education for all citizens.",
+"url": "https://www.rte.ie/news/education/2024/0328/1294206-education-reform-bill/",
+"urlToImage": "https://example.com/image.jpg",
+"publishedAt": "2024-03-28T14:40:00Z",
+"content": "The Irish parliament has passed a significant education reform bill aimed at improving the quality and accessibility of education across the country. The bill introduces measures to enhance teacher training, promote digital literacy, and expand access to higher education. By prioritizing education reform, Ireland seeks to empower its citizens with the knowledge and skills needed to thrive in the 21st century economy."
+}
+]
+}
