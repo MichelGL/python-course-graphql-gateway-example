@@ -91,6 +91,43 @@ query {
 }
 ```
 
+Query example to request a list of favorite places with countries information and news: 
+```query {
+  places {
+    latitude
+    longitude
+    description
+    city
+    locality
+    country {
+      name
+      capital
+      alpha2code
+      alpha3code
+      capital
+      region
+      subregion
+      population
+      latitude
+      longitude
+      demonym
+      area
+      numericCode
+      flag
+      currencies
+      languages
+    }
+    news{
+      author
+      source
+      title
+      description
+      publishedAt
+    }
+  }
+}
+```
+
 This query will request additional information about related countries in optimal way using data loaders to prevent N + 1 requests problem.
 
 ### Automation commands
